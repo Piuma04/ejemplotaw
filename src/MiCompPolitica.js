@@ -3,9 +3,9 @@ import teodoro from "./teodoro.png";
 
 function MiCompPolitica() {
     // Retornar una noticia politica o del tema asignado, como un parrafo de texto.
-    return <div>
+    return <div className="rainbow">
    
-       <img src={teodoro} alt="Teodoro" style={{width: "300px", height: "auto"}} />
+       <img  src={teodoro} alt="Teodoro" style={{width: "300px", height: "auto"}} />
     </div>;
 }
 

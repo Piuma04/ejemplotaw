@@ -8,3 +8,24 @@ body {
   max-width: 800px;
   margin-top: 20px;
 }
+
+@keyframes rainbow {
+  0% { background-color: #ff0000; } /* Red */
+  14% { background-color: #ff8000; } /* Orange */
+  28% { background-color: #ffff00; } /* Yellow */
+  42% { background-color: #80ff00; } /* Yellow-Green */
+  56% { background-color: #00ff00; } /* Green */
+  70% { background-color: #00ff80; } /* Green-Cyan */
+  84% { background-color: #00ffff; } /* Cyan */
+  100% { background-color: #ff0000; } /* Back to Red */
+}
+
+.rainbow{
+  width: 100%;
+  height: 100%;
+  animation: rainbow 1s infinite linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
